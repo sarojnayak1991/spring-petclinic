@@ -1,6 +1,6 @@
 pipeline {
     agent {
-            label 'master'
+            label 'Build-server-1'
     }
     tools{
         maven 'mymaven'
