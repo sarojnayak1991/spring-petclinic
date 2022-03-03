@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        maven 'maven3'
-        jdk 'jdk8'
+        maven 'Maven3'
+        jdk 'java8'
     }
     stages {
         stage('Code Validate') {
